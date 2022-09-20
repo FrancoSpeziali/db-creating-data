@@ -14,16 +14,9 @@ For this assignment you will have to:
 4. Setup the schema for your data
 5. Connect your database to your server endpoints
 
-The client (frontend) code has already been written. You do not need to change this.
-
-This project assumes you've already had experience with:
-
-- dotenv
-- express.js
-
 ## Tasks
 
-## Task 1 - Initial setup - npm packages
+### Task 1 - Initial setup - npm packages
 
 > Note: If you are using an older version of `npm`, you may need to first initialise the folder with `npm init -y`
 
@@ -31,7 +24,7 @@ This project assumes you've already had experience with:
 2. Install the `mongoose` package with `npm i mongoose`
 2. Install the `express` package with `npm i express`
 
-## Task 2 - Setting up your .env file
+### Task 2 - Setting up your .env file
 
 > Important! To complete this task, you need to know the connection details for your database
 
@@ -49,7 +42,7 @@ You should be able to get all of this information from your MongoDB server
    - Password
    - Database name
 
-## Task 3 - Setting up dotenv
+### Task 3 - Setting up dotenv
 
 1. Create the file `server.js`
 2. Import the `dotenv` library
@@ -57,7 +50,7 @@ You should be able to get all of this information from your MongoDB server
 
 [dotenv](https://www.npmjs.com/package/dotenv)
 
-## Task 4 - Connecting to the database
+### Task 4 - Connecting to the database
 
 1. Import the `mongoose` library
 2. Use the `connect()` method to connect to your MongoDB database
@@ -71,17 +64,17 @@ You should be able to get all of this information from your MongoDB server
 
 > Important: Before moving to the next task, make sure your database connection is working
 
-## Task 5 - Setting up the server
+### Task 5 - Setting up the server
 
 1. Import the `express` library and setup a server
 2. Setup the `express.json()` middleware
 
-## Task 6 - Setting up a POST endpoint
+### Task 6 - Setting up a POST endpoint
 
 1. Create an endpoint which accepts a POST request. Use any path or route you wish.
 2. Use an API testing tool such as [Insomnia](https://insomnia.rest/) to test your endpoint
 
-## Task 7 - Creating a schema for your collection
+### Task 7 - Creating a schema for your collection
 
 We need to store some information into the database. This information will be held inside a new collection.
 
@@ -96,7 +89,7 @@ avatar: String
 skill: String
 ```
 
-## Task 8 - Creating a model for your collection
+### Task 8 - Creating a model for your collection
 
 The schema on its own does nothing - it is the model that does the work of interfacing with the collection
 
@@ -119,7 +112,7 @@ skill: Theatre
 
 > Hint: Remember, `create()` uses a promise!
 
-## Task 10 - Getting more mock data
+### Task 10 - Getting more mock data
 
 1. Use the website [mockaroo](https://mockaroo.com/) to generate at least 10 more records
 2. Use the data from mockaroo in your API testing tool, to add at least 5 more documents to your database
